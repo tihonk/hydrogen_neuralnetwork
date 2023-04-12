@@ -2,10 +2,9 @@ import numpy as np
 import torch
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import time
 
 hostName = "localhost"
-serverPort = 9002
+serverPort = 9102
 model = torch.load('model.pth')
 
 
